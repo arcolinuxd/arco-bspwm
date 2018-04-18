@@ -22,7 +22,7 @@ read -p "What is your login? It will be used to add this user to the group autol
 sudo gpasswd -a $choice autologin
 
 sudo sed -i 's/'#autologin-user='/'autologin-user=$choice'/g' /etc/lightdm/lightdm.conf
-sudo sed -i 's/'#autologin-session='/'autologin-session=awesome'/g' /etc/lightdm/lightdm.conf
+sudo sed -i 's/'#autologin-session='/'autologin-session=bspwm'/g' /etc/lightdm/lightdm.conf
 
 echo "################################################################"
 echo "####        You can now autologin - reboot to check       ######"
