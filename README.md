@@ -1,4 +1,4 @@
-# ArcoLinuxD BSPWM
+# ArcoLinuxD BSPWM Desktop
 
 All credits to Nick Petrov & Kevin Yanez aka (INTRCPTR)	for making this configuration.
 
