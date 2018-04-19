@@ -1,9 +1,10 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author 	: 	Nick Petrov
-# Author    :   Kevin Yanez
-# Website	:	https://www.arcolinux.info
+# Author 	: Nick Petrov
+# Author  : Kevin Yanez
+# Author 	: Erik Dubois
+# Website : https://www.erikdubois.be
 # Website	:	https://www.arcolinux.com
 # Website	:	https://www.arcolinuxd.com
 # Website	:	https://www.arcolinuxforum.com
