@@ -29,6 +29,8 @@ sh AUR-DS/install-xtitle-v*.sh
 
 sh AUR-DS/install-python-pywal-v*.sh
 
+sh AUR-DS/install-polybar-v*.sh
+
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
 echo "################################################################"
