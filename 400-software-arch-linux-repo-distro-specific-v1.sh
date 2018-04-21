@@ -58,7 +58,7 @@ sudo pacman -S qt4 --noconfirm --needed
 sudo pacman -S rofi --noconfirm --needed
 sudo pacman -S thunar --noconfirm --needed
 sudo pacman -S slim --noconfirm --needed
-sudo pacman -S volumeicon  --noconfirm --needed
+#sudo pacman -S volumeicon  --noconfirm --needed
 sudo pacman -S w3m  --noconfirm --needed
 sudo pacman -S xdo  --noconfirm --needed
 sudo pacman -S xdotool  --noconfirm --needed
