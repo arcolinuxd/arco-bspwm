@@ -48,6 +48,7 @@ sudo pacman -S compton  --noconfirm --needed
 sudo pacman -S dmenu  --noconfirm --needed
 sudo pacman -S feh --noconfirm --needed
 sudo pacman -S gmrun --noconfirm --needed
+sudo pacman -S gtop --noconfirm --needed
 sudo pacman -S imagemagick --noconfirm --needed
 sudo pacman -S lxappearance-gtk3 --noconfirm --needed
 sudo pacman -S lxrandr --noconfirm --needed
@@ -58,7 +59,6 @@ sudo pacman -S qt4 --noconfirm --needed
 sudo pacman -S rofi --noconfirm --needed
 sudo pacman -S thunar --noconfirm --needed
 sudo pacman -S slim --noconfirm --needed
-#sudo pacman -S volumeicon  --noconfirm --needed
 sudo pacman -S w3m  --noconfirm --needed
 sudo pacman -S xdo  --noconfirm --needed
 sudo pacman -S xdotool  --noconfirm --needed
