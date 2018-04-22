@@ -31,6 +31,8 @@ sh AUR-DS/install-python-pywal-v*.sh
 
 sh AUR-DS/install-polybar-v*.sh
 
+sh AUR-DS/install-urxvt-resize-font-git-v*.sh
+
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
 echo "################################################################"
