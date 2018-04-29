@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author	:	Nick Petrov
-# Author	:	Kevin Yanez
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
 # Website	:	https://www.arcolinux.info
@@ -27,6 +25,6 @@ sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
 
-echo "Remove anything you do not like from the installed applications"
+#Remove anything you do not like from the installed applications
 
 #sudo pacman -R ...

@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author	:	Nick Petrov
-# Author	:	Kevin Yanez
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
 # Website	:	https://www.arcolinux.info
