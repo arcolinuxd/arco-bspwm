@@ -19,8 +19,6 @@ sh AUR-DS/install-gtk2-perl-v*.sh
 
 sh AUR-DS/install-perl-linux-desktopfiles-v*.sh
 
-sh AUR-DS/install-xfce-slimlock-v*.sh
-
 sh AUR-DS/install-sutils-git-v*.sh
 
 sh AUR-DS/install-xtitle-v*.sh
