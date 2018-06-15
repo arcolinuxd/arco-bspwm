@@ -25,7 +25,7 @@ echo "Installing category Accessories"
 
 #sh AUR/install-caffeine-ng-v*.sh
 sh AUR/install-conky-lua-archers-v*.sh
-sh AUR/install-cool-retro-term-v*.sh
+#sh AUR/install-cool-retro-term-v*.sh
 sh AUR/install-discord-v*.sh
 sh AUR/install-mintstick-git-v*.sh
 sh AUR/install-temps-v*.sh
@@ -43,7 +43,7 @@ echo "Installing category Games"
 
 echo "Installing category Graphics"
 
-sh AUR/install-font-manager-v*.sh
+#sh AUR/install-font-manager-v*.sh
 
 echo "Installing category Internet"
 
@@ -72,7 +72,7 @@ echo "Installing category System"
 sh AUR/install-arc-gtk-theme-git-v*.sh
 #sh AUR/install-conky-aureola-v*.sh
 sh AUR/install-downgrade-v*.sh
-sh AUR/install-grub-customizer-v*.sh
+#sh AUR/install-grub-customizer-v*.sh
 sh AUR/install-inxi-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh

@@ -23,7 +23,7 @@ sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 #sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
-sudo pacman -S --noconfirm --needed xfburn
+#sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
@@ -45,10 +45,10 @@ echo "Installing category Games"
 
 echo "Installing category Graphics"
 
-sudo pacman -S --noconfirm --needed darktable
+#sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
-sudo pacman -S --noconfirm --needed gnome-font-viewer
-sudo pacman -S --noconfirm --needed gpick
+#sudo pacman -S --noconfirm --needed gnome-font-viewer
+#sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
 sudo pacman -S --noconfirm --needed ristretto
@@ -57,7 +57,7 @@ sudo pacman -S --noconfirm --needed ristretto
 echo "Installing category Internet"
 
 sudo pacman -S --noconfirm --needed chromium
-sudo pacman -S --noconfirm --needed filezilla
+#sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed transmission-cli
@@ -80,7 +80,7 @@ sudo pacman -S --noconfirm --needed vlc
 echo "Installing category Office"
 
 sudo pacman -S --noconfirm --needed evince
-sudo pacman -S --noconfirm --needed evolution
+#sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
 #sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
@@ -150,7 +150,6 @@ sudo pacman -S --noconfirm --needed zenity
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
 
 ###############################################################################################
-
 
 echo "################################################################"
 echo "#### Software from standard Arch Linux Repo installed  #########"
