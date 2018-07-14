@@ -13,9 +13,7 @@ set -e
 #
 ##################################################################################################################
 
-yaourt -S libc++ --m-arg --nocheck --noconfirm --m-arg --skipinteg
-
-package="discord"
+package="yay"
 
 #----------------------------------------------------------------------------------
 
@@ -32,7 +30,7 @@ else
 	if pacman -Qi yaourt &> /dev/null; then
 
 		echo "Installing with yaourt"
-		yaourt -S --noconfirm --m-arg --skippgpcheck $package
+		yaourt -S --noconfirm $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
 
