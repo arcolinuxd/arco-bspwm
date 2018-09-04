@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -e
+set -e
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
@@ -13,20 +13,20 @@
 #
 ##################################################################################################################
 
+echo '
 
-[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
+#[arcolinux_repo_testing]
+#SigLevel = Required DatabaseOptional
+#Server = https://arcolinux.github.io/arcolinux_repo_testing/$arch
 
+[arcolinux_repo]
+SigLevel = Required DatabaseOptional
+Server = https://arcolinux.github.io/arcolinux_repo/$arch
 
-echo "Copy fonts to .fonts"
-
-cp Personal/settings/fonts/* ~/.fonts/
-
-echo "Building new fonts into the cache files";
-echo "Depending on the number of fonts, this may take a while..."
-fc-cache -fv ~/.fonts
-
-
+[arcolinux_repo_3party]
+SigLevel = Required DatabaseOptional
+Server = https://arcolinux.github.io/arcolinux_repo_3party/$arch' | sudo tee --append /etc/pacman.conf
 
 echo "################################################################"
-echo "#########   Fonts have been copied and loaded   ################"
+echo "###                  arcolinux repo added                   ####"
 echo "################################################################"

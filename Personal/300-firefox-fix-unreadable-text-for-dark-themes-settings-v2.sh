@@ -14,24 +14,19 @@ set -e
 ##################################################################################################################
 
 
-########################################
-########        C O N K Y      #########
-########################################
+
+echo "Making sure firefox looks great in dark themes like Arc-Dark"
+echo "Firefox must have started once. The directory will not exist otherwise."
+
+sh firefox &
+sleep 1
+killall firefox
+
+cp -r settings/firefox/chrome/ ~/.mozilla/firefox/*.default
+
+echo "Restart firefox to see the effect"
 
 
 echo "################################################################"
-echo "Downloading the files from github to tmp directory"
-
-rm -rf /tmp/aureola
-
-git clone https://github.com/erikdubois/Aureola /tmp/aureola
-
-# if there is already a folder in tmp, delete or else do nothing
-[ -d ~/.aureola ] && rm -rf ~/.aureola
-mv -f /tmp/aureola ~/.aureola
-
-rm -rf /tmp/aureola
-
-echo "################################################################"
-echo "###################    aureola installed  ######################"
+echo "#########       firefox  settings installed     ################"
 echo "################################################################"

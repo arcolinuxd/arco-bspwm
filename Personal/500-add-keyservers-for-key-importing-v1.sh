@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -e
+set -e
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
@@ -12,14 +12,14 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-
+[ -d $HOME"/.gnupg" ] || mkdir -p $HOME"/.gnupg"
 
 echo '
 
-[archlinuxfr]
-SigLevel = Never
-Server = http://repo.archlinux.fr/$arch' | sudo tee --append /etc/pacman.conf
+keyserver hkp://pool.sks-keyservers.net:80
+keyserver hkps://hkps.pool.sks-keyservers.net:443
+keyserver hkp://ipv4.pool.sks-keyservers.net:11371' | sudo tee --append ~/.gnupg/gpg.conf
 
 echo "################################################################"
-echo "###                 archlinuxfr repo added                  ####"
+echo "###                  keyservers added                       ####"
 echo "################################################################"
