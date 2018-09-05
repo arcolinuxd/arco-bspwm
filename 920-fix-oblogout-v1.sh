@@ -17,5 +17,6 @@ echo "Change setting to be able to log out"
 sudo sed -i 's/logout = openbox --exit/logout = pkill bspwm/g' /etc/oblogout.conf
 
 echo "################################################################"
-echo "####						 FIX   APPLIED                  ######"
+echo "####                      FIX APPLIED                     ######"
 echo "################################################################"
+
