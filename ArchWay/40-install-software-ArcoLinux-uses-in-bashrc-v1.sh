@@ -15,12 +15,14 @@ set -e
 #
 ##################################################################################################################
 
-echo "Everywhere Breeze-snow as cursor"
-echo "Change cursor if you want"
+echo "Installing the software ArcoLinux uses in .bashrc"
 
-sudo cp -r Personal/settings/default/index.theme /usr/share/icons/default/
+sudo pacman -S --noconfirm --needed expac
+sudo pacman -S --noconfirm --needed hwinfo
+sudo pacman -S --noconfirm --needed reflector
+sudo pacman -S --noconfirm --needed youtube-dl
 
 
 echo "################################################################"
-echo "####           TO SEE THE EFFECT YOU MUST LOG OFF         ######"
+echo "###                  software installed                     ####"
 echo "################################################################"
