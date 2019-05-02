@@ -64,6 +64,7 @@ sudo pacman -S xfce4-power-manager --noconfirm --needed
 sudo pacman -S xfce4-screenshooter --noconfirm --needed
 sudo pacman -S xfce4-settings --noconfirm --needed
 sudo pacman -S xfce4-taskmanager --noconfirm --needed
+sudo pacman -S xfce4-notifyd --noconfirm --needed
 
 echo "################################################################"
 echo "####    Software from Arch Linux Repository installed     ######"
