@@ -92,7 +92,6 @@ sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmonad-polybar-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmonad-xmobar-git --noconfirm --needed
 
-
 echo "################################################################"
 echo "####     Software from ArcoLinux Repository installed       ####"
 echo "################################################################"
