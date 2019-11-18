@@ -51,7 +51,7 @@ sudo pacman -S arcolinux-local-applications-git --noconfirm --needed
 sudo pacman -S arcolinux-mirrorlist-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
-#sudo pacman -S arcolinux-oblogout --noconfirm --needed
+sudo pacman -S arcolinux-oblogout --noconfirm --needed
 sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-obmenu-generator-git --noconfirm --needed
 #sudo pacman -S arcolinux-obmenu-generator-minimal-git --noconfirm --needed
