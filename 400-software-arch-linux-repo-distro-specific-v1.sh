@@ -57,7 +57,6 @@ sudo pacman -S playerctl --noconfirm --needed
 sudo pacman -S rofi --noconfirm --needed
 sudo pacman -S thunar --noconfirm --needed
 sudo pacman -S w3m  --noconfirm --needed
-sudo pacman -S xdo  --noconfirm --needed
 sudo pacman -S xfce4-appfinder --noconfirm --needed
 sudo pacman -S xfce4-power-manager --noconfirm --needed
 sudo pacman -S xfce4-screenshooter --noconfirm --needed
