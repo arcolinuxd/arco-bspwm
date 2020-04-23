@@ -63,6 +63,7 @@ arcolinux-polybar-git
 arcolinux-bspwm-git
 arcolinux-bspwm-dconf-git
 arcolinux-config-bspwm-git
+awesome-terminal-fonts
 )
 
 count=0
