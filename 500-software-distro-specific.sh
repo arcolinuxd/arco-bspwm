@@ -56,7 +56,6 @@ func_category Additional-distro-specific
 
 list=(
 arandr
-picom
 dmenu
 feh
 gmrun
@@ -65,6 +64,7 @@ imagemagick
 lxappearance
 lxrandr
 nitrogen
+picom
 playerctl
 python-pywal
 volumeicon
@@ -75,6 +75,7 @@ xfce4-notifyd
 xfce4-power-manager
 xfce4-screenshooter
 xfce4-settings
+xfce4-screenshooter
 xfce4-taskmanager
 xfce4-terminal
 hardcode-fixer-git
