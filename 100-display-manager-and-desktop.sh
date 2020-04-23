@@ -58,12 +58,15 @@ xfce4-terminal
 arcolinux-xfce-git
 bspwm
 sxhkd
-polybar
-arcolinux-polybar-git
+xdo
+sutils-git
+xtitle-git
 arcolinux-bspwm-git
 arcolinux-bspwm-dconf-git
 arcolinux-config-bspwm-git
 awesome-terminal-fonts
+polybar
+arcolinux-polybar-git
 )
 
 count=0
