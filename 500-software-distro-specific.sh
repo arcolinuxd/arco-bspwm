@@ -66,7 +66,6 @@ imagemagick
 lxappearance
 lxrandr
 nitrogen
-perl-linux-desktopfiles
 playerctl
 python-pywal
 volumeicon
