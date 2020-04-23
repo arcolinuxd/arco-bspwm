@@ -69,6 +69,7 @@ arcolinux-config-bspwm-git
 awesome-terminal-fonts
 polybar
 arcolinux-polybar-git
+arcolinux-logout-git
 )
 
 count=0
