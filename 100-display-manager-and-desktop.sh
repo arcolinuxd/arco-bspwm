@@ -59,6 +59,7 @@ arcolinux-xfce-git
 arcolinux-local-xfce4-git
 bspwm
 sxhkd
+dmenu
 xdo
 sutils-git
 xtitle-git
