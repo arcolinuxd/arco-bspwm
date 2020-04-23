@@ -58,6 +58,8 @@ xfce4-terminal
 arcolinux-xfce-git
 bspwm
 sxhkd
+polybar
+arcolinux-polybar-git
 arcolinux-bspwm-git
 arcolinux-bspwm-dconf-git
 arcolinux-config-bspwm-git
