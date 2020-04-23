@@ -60,7 +60,6 @@ picom
 dmenu
 feh
 gmrun
-gtk2-perl
 gtk-engine-murrine
 imagemagick
 lxappearance
