@@ -61,6 +61,7 @@ bspwm
 sxhkd
 dmenu
 xdo
+feh
 sutils-git
 xtitle-git
 arcolinux-bspwm-git
