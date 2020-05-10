@@ -1,10 +1,6 @@
 # ArcoLinuxD BSPWM Desktop
 
-All credits to Nick Petrov & Kevin Yanez aka (INTRCPTR)	for making this configuration.
-
-
-
-# Start by installing the latest ArcoLinuxD installation
+# Start by installing the latest ArcoLinuxD iso
 
 Download at https://arcolinux.info and burn to usb
 
@@ -66,3 +62,8 @@ Mewe Page : https://mewe.com/page/5c54756fb28a87238fa79302
 Mewe Group : https://mewe.com/group/5bbc4577a40f3002b313671d
 
 Mewe ArcoLinux : https://mewe.com/profile/5bc022ac70fb13619f97af90
+
+All credits to Nick Petrov & Kevin Yanez aka (INTRCPTR)	for making this configuration.
+
+
+
