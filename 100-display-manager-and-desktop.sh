@@ -64,7 +64,7 @@ sutils-git
 xtitle-git
 arcolinux-bspwm-git
 arcolinux-bspwm-dconf-git
-arcolinux-config-bspwm-git
+arcolinux-config-all-desktops-git
 awesome-terminal-fonts
 polybar
 arcolinux-polybar-git
