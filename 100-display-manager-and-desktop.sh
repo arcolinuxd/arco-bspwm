@@ -68,7 +68,7 @@ arcolinux-config-all-desktops-git
 awesome-terminal-fonts
 polybar
 arcolinux-polybar-git
-arcolinux-logout-git
+archlinux-logout-git
 )
 
 count=0
